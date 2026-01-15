@@ -1,0 +1,286 @@
+2025-12-05 13:51:37,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.68.159:5000
+2025-12-05 13:51:37,823 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 13:51:37,823 - INFO -  * Restarting with stat
+2025-12-05 13:51:46,902 - WARNING -  * Debugger is active!
+2025-12-05 13:51:46,910 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 13:57:15,258 - INFO - 127.0.0.1 - - [05/Dec/2025 13:57:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 13:57:15,514 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 13:57:15,610 - ERROR - ERROR: columns are missing: {'Src_Port_Group', 'ts_is_weekend', 'ts_second', 'Fwd_Header_Length', 'Flow_Bytes/s', 'Dst_Port_Group', 'Flow_Packets/s', 'Bwd_Header_Length', 'Flags', 'ts_minute', 'ts_hour', 'Inbound', 'ts_dayofweek', 'Avg_Packet_Size', 'Protocol'}
+2025-12-05 13:57:15,610 - INFO - 127.0.0.1 - - [05/Dec/2025 13:57:15] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:04:08,704 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 14:04:09,885 - INFO -  * Restarting with stat
+2025-12-05 14:05:55,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.68.159:5000
+2025-12-05 14:05:55,627 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 14:05:55,627 - INFO -  * Restarting with stat
+2025-12-05 14:06:04,922 - WARNING -  * Debugger is active!
+2025-12-05 14:06:04,941 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 14:07:05,945 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 14:07:07,034 - INFO -  * Restarting with stat
+2025-12-05 14:07:15,945 - WARNING -  * Debugger is active!
+2025-12-05 14:07:15,945 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 14:07:15,976 - INFO - 127.0.0.1 - - [05/Dec/2025 14:07:15] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:07:15,979 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:07:16,000 - ERROR - ERROR: columns are missing: {'Dst_Port_Group', 'Fwd_Header_Length', 'ts_second', 'Flags', 'Inbound', 'Src_Port_Group', 'ts_dayofweek', 'Protocol', 'Flow_Bytes/s', 'Flow_Packets/s', 'ts_minute', 'ts_hour', 'Bwd_Header_Length', 'ts_is_weekend', 'Avg_Packet_Size'}
+2025-12-05 14:07:16,000 - INFO - 127.0.0.1 - - [05/Dec/2025 14:07:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:07:54,015 - INFO - 127.0.0.1 - - [05/Dec/2025 14:07:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:07:54,267 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:07:54,308 - ERROR - ERROR: columns are missing: {'Dst_Port_Group', 'Fwd_Header_Length', 'ts_second', 'Flags', 'Inbound', 'Src_Port_Group', 'ts_dayofweek', 'Protocol', 'Flow_Bytes/s', 'Flow_Packets/s', 'ts_minute', 'ts_hour', 'Bwd_Header_Length', 'ts_is_weekend', 'Avg_Packet_Size'}
+2025-12-05 14:07:54,308 - INFO - 127.0.0.1 - - [05/Dec/2025 14:07:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:22:42,361 - INFO - 127.0.0.1 - - [05/Dec/2025 14:22:42] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:22:42,618 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:22:42,660 - ERROR - ERROR: columns are missing: {'Dst_Port_Group', 'Fwd_Header_Length', 'ts_second', 'Flags', 'Inbound', 'Src_Port_Group', 'ts_dayofweek', 'Protocol', 'Flow_Bytes/s', 'Flow_Packets/s', 'ts_minute', 'ts_hour', 'Bwd_Header_Length', 'ts_is_weekend', 'Avg_Packet_Size'}
+2025-12-05 14:22:42,660 - INFO - 127.0.0.1 - - [05/Dec/2025 14:22:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:23:12,549 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.68.159:5000
+2025-12-05 14:23:12,549 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 14:23:12,553 - INFO -  * Restarting with stat
+2025-12-05 14:23:20,618 - WARNING -  * Debugger is active!
+2025-12-05 14:23:20,636 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 14:29:09,839 - INFO - 127.0.0.1 - - [05/Dec/2025 14:29:09] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:29:10,091 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:29:10,135 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:29:10,135 - INFO - 127.0.0.1 - - [05/Dec/2025 14:29:10] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:29:23,950 - INFO - 127.0.0.1 - - [05/Dec/2025 14:29:23] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:29:24,262 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:29:24,302 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:29:24,304 - INFO - 127.0.0.1 - - [05/Dec/2025 14:29:24] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:43:55,540 - INFO - 127.0.0.1 - - [05/Dec/2025 14:43:55] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:43:55,798 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Brute Force'}
+2025-12-05 14:43:55,836 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:43:55,836 - INFO - 127.0.0.1 - - [05/Dec/2025 14:43:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:43:58,942 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'DDoS'}
+2025-12-05 14:43:58,984 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:43:58,984 - INFO - 127.0.0.1 - - [05/Dec/2025 14:43:58] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:44:01,597 - INFO - 127.0.0.1 - - [05/Dec/2025 14:44:01] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:44:01,861 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Ransomware'}
+2025-12-05 14:44:01,896 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:44:01,896 - INFO - 127.0.0.1 - - [05/Dec/2025 14:44:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:44:20,848 - INFO - 127.0.0.1 - - [05/Dec/2025 14:44:20] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:44:21,168 - INFO - Received data: {'Packet_Length': '674', 'Duration': '886', 'Source_Port': '982', 'Destination_Port': '5515', 'Bytes_Sent': '6715', 'Bytes_Received': '991', 'Flow_Packets': '7715', 'Total_Fwd_Packets': '881', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:44:21,209 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:44:21,209 - INFO - 127.0.0.1 - - [05/Dec/2025 14:44:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:44:22,070 - INFO - Received data: {'Packet_Length': '674', 'Duration': '886', 'Source_Port': '982', 'Destination_Port': '5515', 'Bytes_Sent': '6715', 'Bytes_Received': '991', 'Flow_Packets': '7715', 'Total_Fwd_Packets': '881', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 14:44:22,122 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:44:22,126 - INFO - 127.0.0.1 - - [05/Dec/2025 14:44:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 14:47:21,469 - INFO - 127.0.0.1 - - [05/Dec/2025 14:47:21] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 14:47:21,736 - INFO - Received data: {'Packet_Length': '64', 'Duration': '87', 'Source_Port': '85', 'Destination_Port': '87767', 'Bytes_Sent': '8788', 'Bytes_Received': '8764', 'Flow_Packets': '4466', 'Total_Fwd_Packets': '644', 'Total_Bwd_Packets': '64', 'Sub_Flow_Fwd_Bytes': '433', 'Sub_Flow_Bwd_Bytes': '69', 'Attack_Type': 'Normal'}
+2025-12-05 14:47:21,789 - ERROR - ERROR: columns are missing: {'Flags', 'ts_second', 'Inbound', 'ts_minute', 'ts_dayofweek', 'Flow_Packets/s', 'Bwd_Header_Length', 'Src_Port_Group', 'Avg_Packet_Size', 'Dst_Port_Group', 'Fwd_Header_Length', 'ts_hour', 'ts_is_weekend', 'Flow_Bytes/s', 'Protocol'}
+2025-12-05 14:47:21,790 - INFO - 127.0.0.1 - - [05/Dec/2025 14:47:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 15:01:09,677 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.68.159:5000
+2025-12-05 15:01:09,677 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 15:01:09,679 - INFO -  * Restarting with stat
+2025-12-05 15:01:18,286 - WARNING -  * Debugger is active!
+2025-12-05 15:01:18,296 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 15:01:41,544 - INFO - 127.0.0.1 - - [05/Dec/2025 15:01:41] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 15:01:41,801 - INFO - Received data: {'Packet_Length': '655', 'Duration': '87', 'Source_Port': '98', 'Destination_Port': '689', 'Bytes_Sent': '96', 'Bytes_Received': '97', 'Flow_Packets': '456', 'Total_Fwd_Packets': '748', 'Total_Bwd_Packets': '975', 'Sub_Flow_Fwd_Bytes': '864', 'Sub_Flow_Bwd_Bytes': '676', 'Attack_Type': 'Normal'}
+2025-12-05 15:01:41,846 - ERROR - ERROR: columns are missing: {'ts_minute', 'Flow_Packets/s', 'Protocol', 'Fwd_Header_Length', 'ts_second', 'Bwd_Header_Length', 'ts_dayofweek', 'Flow_Bytes/s', 'Src_Port_Group', 'Avg_Packet_Size', 'ts_is_weekend', 'Inbound', 'Flags', 'Dst_Port_Group', 'ts_hour'}
+2025-12-05 15:01:41,857 - INFO - 127.0.0.1 - - [05/Dec/2025 15:01:41] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 15:03:02,008 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 15:03:02,958 - INFO -  * Restarting with stat
+2025-12-05 15:03:18,253 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.68.159:5000
+2025-12-05 15:03:18,253 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 15:03:18,253 - INFO -  * Restarting with stat
+2025-12-05 15:03:27,630 - WARNING -  * Debugger is active!
+2025-12-05 15:03:27,646 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 15:03:40,560 - INFO - 127.0.0.1 - - [05/Dec/2025 15:03:40] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 15:03:40,820 - INFO - Received data: {'Packet_Length': '655', 'Duration': '87', 'Source_Port': '98', 'Destination_Port': '689', 'Bytes_Sent': '96', 'Bytes_Received': '97', 'Flow_Packets': '456', 'Total_Fwd_Packets': '748', 'Total_Bwd_Packets': '975', 'Sub_Flow_Fwd_Bytes': '864', 'Sub_Flow_Bwd_Bytes': '676', 'Attack_Type': 'Normal'}
+2025-12-05 15:03:40,872 - ERROR - ERROR: columns are missing: {'Inbound', 'Protocol', 'Flags', 'Flow_Packets/s', 'ts_second', 'Dst_Port_Group', 'ts_minute', 'Src_Port_Group', 'Fwd_Header_Length', 'Flow_Bytes/s', 'ts_hour', 'ts_dayofweek', 'Avg_Packet_Size', 'ts_is_weekend', 'Bwd_Header_Length'}
+2025-12-05 15:03:40,879 - INFO - 127.0.0.1 - - [05/Dec/2025 15:03:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 15:04:12,113 - INFO - 127.0.0.1 - - [05/Dec/2025 15:04:12] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 15:04:12,425 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 15:04:12,467 - ERROR - ERROR: columns are missing: {'Inbound', 'Protocol', 'Flags', 'Flow_Packets/s', 'ts_second', 'Dst_Port_Group', 'ts_minute', 'Src_Port_Group', 'Fwd_Header_Length', 'Flow_Bytes/s', 'ts_hour', 'ts_dayofweek', 'Avg_Packet_Size', 'ts_is_weekend', 'Bwd_Header_Length'}
+2025-12-05 15:04:12,467 - INFO - 127.0.0.1 - - [05/Dec/2025 15:04:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 15:05:55,201 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 15:05:56,198 - INFO -  * Restarting with stat
+2025-12-05 15:06:08,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.27.68.159:5000
+2025-12-05 15:06:08,711 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 15:06:08,715 - INFO -  * Restarting with stat
+2025-12-05 15:06:16,884 - WARNING -  * Debugger is active!
+2025-12-05 15:06:16,901 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 15:06:16,917 - INFO - 127.0.0.1 - - [05/Dec/2025 15:06:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 15:06:16,917 - INFO - 127.0.0.1 - - [05/Dec/2025 15:06:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 15:06:16,917 - INFO - 127.0.0.1 - - [05/Dec/2025 15:06:16] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 15:06:17,236 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 15:06:17,240 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 15:06:17,258 - INFO - Received data: {'Packet_Length': '67', 'Duration': '88', 'Source_Port': '98', 'Destination_Port': '55', 'Bytes_Sent': '67', 'Bytes_Received': '99', 'Flow_Packets': '77', 'Total_Fwd_Packets': '88', 'Total_Bwd_Packets': '24', 'Sub_Flow_Fwd_Bytes': '566', 'Sub_Flow_Bwd_Bytes': '78', 'Attack_Type': 'Normal'}
+2025-12-05 15:06:17,333 - ERROR - ERROR: columns are missing: {'Flow_Bytes/s', 'ts_second', 'Fwd_Header_Length', 'ts_minute', 'Flow_Packets/s', 'ts_is_weekend', 'ts_hour', 'Avg_Packet_Size', 'Dst_Port_Group', 'Flags', 'ts_dayofweek', 'Bwd_Header_Length', 'Src_Port_Group', 'Inbound', 'Protocol'}
+2025-12-05 15:06:17,354 - INFO - 127.0.0.1 - - [05/Dec/2025 15:06:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 15:06:17,354 - ERROR - ERROR: columns are missing: {'Flow_Bytes/s', 'ts_second', 'Fwd_Header_Length', 'ts_minute', 'Flow_Packets/s', 'ts_is_weekend', 'ts_hour', 'Avg_Packet_Size', 'Dst_Port_Group', 'Flags', 'ts_dayofweek', 'Bwd_Header_Length', 'Src_Port_Group', 'Inbound', 'Protocol'}
+2025-12-05 15:06:17,354 - ERROR - ERROR: columns are missing: {'Flow_Bytes/s', 'ts_second', 'Fwd_Header_Length', 'ts_minute', 'Flow_Packets/s', 'ts_is_weekend', 'ts_hour', 'Avg_Packet_Size', 'Dst_Port_Group', 'Flags', 'ts_dayofweek', 'Bwd_Header_Length', 'Src_Port_Group', 'Inbound', 'Protocol'}
+2025-12-05 15:06:17,354 - INFO - 127.0.0.1 - - [05/Dec/2025 15:06:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 15:06:17,360 - INFO - 127.0.0.1 - - [05/Dec/2025 15:06:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-12-05 16:33:43,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.131.23.63:5000
+2025-12-05 16:33:43,151 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 16:33:43,151 - INFO -  * Restarting with stat
+2025-12-05 16:33:49,763 - WARNING -  * Debugger is active!
+2025-12-05 16:33:49,763 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 16:33:52,538 - INFO - 127.0.0.1 - - [05/Dec/2025 16:33:52] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:33:52,797 - INFO - Received data: {'Packet_Length': '857', 'Duration': '57', 'Source_Port': '87', 'Destination_Port': '8758', 'Bytes_Sent': '9494', 'Bytes_Received': '74747', 'Flow_Packets': '85468', 'Total_Fwd_Packets': '884', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '74747', 'Sub_Flow_Bwd_Bytes': '747', 'Attack_Type': 'Normal'}
+2025-12-05 16:33:54,173 - INFO - Raw model output: [[0.0013111401349306107]]
+2025-12-05 16:33:54,173 - INFO - Prediction: Normal, probability=0.0013111401349306107
+2025-12-05 16:33:54,173 - INFO - 127.0.0.1 - - [05/Dec/2025 16:33:54] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:36:37,898 - INFO - 127.0.0.1 - - [05/Dec/2025 16:36:37] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:36:38,154 - INFO - Received data: {'Packet_Length': '60', 'Duration': '0.2', 'Source_Port': '51000', 'Destination_Port': '80', 'Bytes_Sent': '200', 'Bytes_Received': '150', 'Flow_Packets': '4000', 'Total_Fwd_Packets': '3500', 'Total_Bwd_Packets': '500', 'Sub_Flow_Fwd_Bytes': '10000', 'Sub_Flow_Bwd_Bytes': '3000', 'Attack_Type': 'DDoS'}
+2025-12-05 16:36:38,248 - INFO - Raw model output: [[6.590138252270637e-15]]
+2025-12-05 16:36:38,248 - INFO - Prediction: Normal, probability=6.590138252270637e-15
+2025-12-05 16:36:38,250 - INFO - 127.0.0.1 - - [05/Dec/2025 16:36:38] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:37:46,859 - INFO - 127.0.0.1 - - [05/Dec/2025 16:37:46] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:37:47,118 - INFO - Received data: {'Packet_Length': '120', 'Duration': '0.5', 'Source_Port': '40210', 'Destination_Port': '22', 'Bytes_Sent': '500', 'Bytes_Received': '300', 'Flow_Packets': '120', 'Total_Fwd_Packets': '90', 'Total_Bwd_Packets': '30', 'Sub_Flow_Fwd_Bytes': '2500', 'Sub_Flow_Bwd_Bytes': '800', 'Attack_Type': 'Brute Force'}
+2025-12-05 16:37:47,228 - INFO - Raw model output: [[0.15833783149719238]]
+2025-12-05 16:37:47,229 - INFO - Prediction: Normal, probability=0.15833783149719238
+2025-12-05 16:37:47,229 - INFO - 127.0.0.1 - - [05/Dec/2025 16:37:47] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:38:13,496 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 16:38:14,159 - INFO -  * Restarting with stat
+2025-12-05 16:38:21,108 - WARNING -  * Debugger is active!
+2025-12-05 16:38:21,113 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 16:38:21,124 - INFO - 127.0.0.1 - - [05/Dec/2025 16:38:21] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:38:21,124 - INFO - Received data: {'Packet_Length': '120', 'Duration': '0.5', 'Source_Port': '40210', 'Destination_Port': '22', 'Bytes_Sent': '500', 'Bytes_Received': '300', 'Flow_Packets': '120', 'Total_Fwd_Packets': '90', 'Total_Bwd_Packets': '30', 'Sub_Flow_Fwd_Bytes': '2500', 'Sub_Flow_Bwd_Bytes': '800', 'Attack_Type': 'Brute Force'}
+2025-12-05 16:38:21,476 - INFO - Raw model output: [[0.15833783149719238]]
+2025-12-05 16:38:21,476 - INFO - Prediction: Attack, probability=0.15833783149719238
+2025-12-05 16:38:21,476 - INFO - 127.0.0.1 - - [05/Dec/2025 16:38:21] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:39:22,546 - INFO - 127.0.0.1 - - [05/Dec/2025 16:39:22] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:39:22,804 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 16:39:22,908 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 16:39:22,908 - INFO - Prediction: Attack, probability=0.24735985696315765
+2025-12-05 16:39:22,908 - INFO - 127.0.0.1 - - [05/Dec/2025 16:39:22] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:39:32,620 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 16:39:33,464 - INFO -  * Restarting with stat
+2025-12-05 16:39:39,459 - WARNING -  * Debugger is active!
+2025-12-05 16:39:39,475 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 16:39:39,491 - INFO - 127.0.0.1 - - [05/Dec/2025 16:39:39] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:39:39,491 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 16:39:39,843 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 16:39:39,844 - INFO - Prediction: Attack, probability=0.24735985696315765
+2025-12-05 16:39:39,844 - INFO - 127.0.0.1 - - [05/Dec/2025 16:39:39] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:39:50,594 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 16:39:51,371 - INFO -  * Restarting with stat
+2025-12-05 16:39:57,400 - WARNING -  * Debugger is active!
+2025-12-05 16:39:57,416 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 16:39:57,416 - INFO - 127.0.0.1 - - [05/Dec/2025 16:39:57] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:39:57,416 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 16:39:57,918 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 16:39:57,919 - INFO - Prediction: Normal, probability=0.24735985696315765
+2025-12-05 16:39:57,920 - INFO - 127.0.0.1 - - [05/Dec/2025 16:39:57] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:40:11,601 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:11] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:40:11,857 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'DDoS'}
+2025-12-05 16:40:11,983 - INFO - Raw model output: [[0.25340595841407776]]
+2025-12-05 16:40:11,984 - INFO - Prediction: Normal, probability=0.25340595841407776
+2025-12-05 16:40:11,984 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:11] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:40:18,189 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:18] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:40:18,492 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Brute Force'}
+2025-12-05 16:40:18,640 - INFO - Raw model output: [[0.2892311215400696]]
+2025-12-05 16:40:18,641 - INFO - Prediction: Normal, probability=0.2892311215400696
+2025-12-05 16:40:18,642 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:18] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:40:22,274 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Ransomware'}
+2025-12-05 16:40:22,432 - INFO - Raw model output: [[0.2654890716075897]]
+2025-12-05 16:40:22,433 - INFO - Prediction: Normal, probability=0.2654890716075897
+2025-12-05 16:40:22,434 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:22] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:40:27,547 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:27] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:40:27,805 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 16:40:27,910 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 16:40:27,915 - INFO - Prediction: Normal, probability=0.24735985696315765
+2025-12-05 16:40:27,916 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:27] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:40:36,765 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 16:40:37,531 - INFO -  * Restarting with stat
+2025-12-05 16:40:43,842 - WARNING -  * Debugger is active!
+2025-12-05 16:40:43,853 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 16:40:43,862 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:43] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:40:43,862 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 16:40:44,217 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 16:40:44,217 - INFO - Prediction: Attack, probability=0.24735985696315765
+2025-12-05 16:40:44,217 - INFO - 127.0.0.1 - - [05/Dec/2025 16:40:44] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:40:55,980 - INFO -  * Detected change in 'D:\\Proyek_CerTan\\Proyek\\backend\\app.py', reloading
+2025-12-05 16:40:56,685 - INFO -  * Restarting with stat
+2025-12-05 16:41:02,653 - WARNING -  * Debugger is active!
+2025-12-05 16:41:02,660 - INFO -  * Debugger PIN: 125-808-607
+2025-12-05 16:41:02,670 - INFO - 127.0.0.1 - - [05/Dec/2025 16:41:02] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:41:02,670 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 16:41:03,019 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 16:41:03,020 - INFO - Prediction: Normal, probability=0.24735985696315765
+2025-12-05 16:41:03,020 - INFO - 127.0.0.1 - - [05/Dec/2025 16:41:03] "POST /predict HTTP/1.1" 200 -
+2025-12-05 16:41:08,303 - INFO - 127.0.0.1 - - [05/Dec/2025 16:41:08] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 16:41:08,570 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'DDoS'}
+2025-12-05 16:41:08,672 - INFO - Raw model output: [[0.25340595841407776]]
+2025-12-05 16:41:08,674 - INFO - Prediction: Attack, probability=0.25340595841407776
+2025-12-05 16:41:08,675 - INFO - 127.0.0.1 - - [05/Dec/2025 16:41:08] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:08:23,225 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.131.23.63:5000
+2025-12-05 22:08:23,225 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-05 22:08:23,228 - INFO -  * Restarting with stat
+2025-12-05 22:08:31,179 - WARNING -  * Debugger is active!
+2025-12-05 22:08:31,191 - INFO -  * Debugger PIN: 146-906-658
+2025-12-05 22:14:38,337 - INFO - 127.0.0.1 - - [05/Dec/2025 22:14:38] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:14:38,584 - INFO - Received data: {'Packet_Length': '60', 'Duration': '0.2', 'Source_Port': '51000', 'Destination_Port': '80', 'Bytes_Sent': '200', 'Bytes_Received': '150', 'Flow_Packets': '4000', 'Total_Fwd_Packets': '3500', 'Total_Bwd_Packets': '500', 'Sub_Flow_Fwd_Bytes': '10000', 'Sub_Flow_Bwd_Bytes': '3000', 'Attack_Type': 'DDoS'}
+2025-12-05 22:14:39,608 - INFO - Raw model output: [[6.590138252270637e-15]]
+2025-12-05 22:14:39,609 - INFO - Prediction: Normal, probability=6.590138252270637e-15
+2025-12-05 22:14:39,609 - INFO - 127.0.0.1 - - [05/Dec/2025 22:14:39] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:14:44,407 - INFO - 127.0.0.1 - - [05/Dec/2025 22:14:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:14:44,716 - INFO - Received data: {'Packet_Length': '60', 'Duration': '0.2', 'Source_Port': '51000', 'Destination_Port': '80', 'Bytes_Sent': '200', 'Bytes_Received': '150', 'Flow_Packets': '4000', 'Total_Fwd_Packets': '3500', 'Total_Bwd_Packets': '500', 'Sub_Flow_Fwd_Bytes': '10000', 'Sub_Flow_Bwd_Bytes': '3000', 'Attack_Type': 'Ransomware'}
+2025-12-05 22:14:44,809 - INFO - Raw model output: [[5.8848477984098715e-15]]
+2025-12-05 22:14:44,810 - INFO - Prediction: Normal, probability=5.8848477984098715e-15
+2025-12-05 22:14:44,810 - INFO - 127.0.0.1 - - [05/Dec/2025 22:14:44] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:15:47,831 - INFO - 127.0.0.1 - - [05/Dec/2025 22:15:47] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:15:48,091 - INFO - Received data: {'Packet_Length': '120', 'Duration': '0.5', 'Source_Port': '40210', 'Destination_Port': '22', 'Bytes_Sent': '500', 'Bytes_Received': '300', 'Flow_Packets': '120', 'Total_Fwd_Packets': '90', 'Total_Bwd_Packets': '30', 'Sub_Flow_Fwd_Bytes': '2500', 'Sub_Flow_Bwd_Bytes': '800', 'Attack_Type': 'Brute Force'}
+2025-12-05 22:15:48,182 - INFO - Raw model output: [[0.15833783149719238]]
+2025-12-05 22:15:48,182 - INFO - Prediction: Normal, probability=0.15833783149719238
+2025-12-05 22:15:48,183 - INFO - 127.0.0.1 - - [05/Dec/2025 22:15:48] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:15:54,915 - INFO - 127.0.0.1 - - [05/Dec/2025 22:15:54] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:15:55,222 - INFO - Received data: {'Packet_Length': '120', 'Duration': '0.5', 'Source_Port': '40210', 'Destination_Port': '22', 'Bytes_Sent': '500', 'Bytes_Received': '300', 'Flow_Packets': '120', 'Total_Fwd_Packets': '90', 'Total_Bwd_Packets': '30', 'Sub_Flow_Fwd_Bytes': '2500', 'Sub_Flow_Bwd_Bytes': '800', 'Attack_Type': 'DDoS'}
+2025-12-05 22:15:55,360 - INFO - Raw model output: [[0.16435818374156952]]
+2025-12-05 22:15:55,362 - INFO - Prediction: Normal, probability=0.16435818374156952
+2025-12-05 22:15:55,365 - INFO - 127.0.0.1 - - [05/Dec/2025 22:15:55] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:15:58,801 - INFO - Received data: {'Packet_Length': '120', 'Duration': '0.5', 'Source_Port': '40210', 'Destination_Port': '22', 'Bytes_Sent': '500', 'Bytes_Received': '300', 'Flow_Packets': '120', 'Total_Fwd_Packets': '90', 'Total_Bwd_Packets': '30', 'Sub_Flow_Fwd_Bytes': '2500', 'Sub_Flow_Bwd_Bytes': '800', 'Attack_Type': 'Ransomware'}
+2025-12-05 22:15:58,980 - INFO - Raw model output: [[0.14281734824180603]]
+2025-12-05 22:15:58,981 - INFO - Prediction: Normal, probability=0.14281734824180603
+2025-12-05 22:15:58,981 - INFO - 127.0.0.1 - - [05/Dec/2025 22:15:58] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:16:02,566 - INFO - 127.0.0.1 - - [05/Dec/2025 22:16:02] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:16:02,812 - INFO - Received data: {'Packet_Length': '120', 'Duration': '0.5', 'Source_Port': '40210', 'Destination_Port': '22', 'Bytes_Sent': '500', 'Bytes_Received': '300', 'Flow_Packets': '120', 'Total_Fwd_Packets': '90', 'Total_Bwd_Packets': '30', 'Sub_Flow_Fwd_Bytes': '2500', 'Sub_Flow_Bwd_Bytes': '800', 'Attack_Type': 'Brute Force'}
+2025-12-05 22:16:02,901 - INFO - Raw model output: [[0.15833783149719238]]
+2025-12-05 22:16:02,902 - INFO - Prediction: Normal, probability=0.15833783149719238
+2025-12-05 22:16:02,902 - INFO - 127.0.0.1 - - [05/Dec/2025 22:16:02] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:17:34,671 - INFO - 127.0.0.1 - - [05/Dec/2025 22:17:34] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:17:34,935 - INFO - Received data: {'Packet_Length': '900', 'Duration': '8.4', 'Source_Port': '50432', 'Destination_Port': '445', 'Bytes_Sent': '5000000', 'Bytes_Received': '900000', 'Flow_Packets': '450', 'Total_Fwd_Packets': '350', 'Total_Bwd_Packets': '100', 'Sub_Flow_Fwd_Bytes': '4500000', 'Sub_Flow_Bwd_Bytes': '700000', 'Attack_Type': 'Ransomware'}
+2025-12-05 22:17:35,018 - INFO - Raw model output: [[0.0]]
+2025-12-05 22:17:35,018 - INFO - Prediction: Normal, probability=0.0
+2025-12-05 22:17:35,019 - INFO - 127.0.0.1 - - [05/Dec/2025 22:17:35] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:18:25,623 - INFO - 127.0.0.1 - - [05/Dec/2025 22:18:25] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:18:25,938 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 22:18:26,030 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 22:18:26,030 - INFO - Prediction: Normal, probability=0.24735985696315765
+2025-12-05 22:18:26,030 - INFO - 127.0.0.1 - - [05/Dec/2025 22:18:26] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:18:30,477 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Ransomware'}
+2025-12-05 22:18:30,626 - INFO - Raw model output: [[0.2654890716075897]]
+2025-12-05 22:18:30,627 - INFO - Prediction: Attack, probability=0.2654890716075897
+2025-12-05 22:18:30,627 - INFO - 127.0.0.1 - - [05/Dec/2025 22:18:30] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:53:44,142 - INFO - 127.0.0.1 - - [05/Dec/2025 22:53:44] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:53:44,393 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Normal'}
+2025-12-05 22:53:44,489 - INFO - Raw model output: [[0.24735985696315765]]
+2025-12-05 22:53:44,489 - INFO - Prediction: Normal, probability=0.24735985696315765
+2025-12-05 22:53:44,490 - INFO - 127.0.0.1 - - [05/Dec/2025 22:53:44] "POST /predict HTTP/1.1" 200 -
+2025-12-05 22:54:08,152 - INFO - 127.0.0.1 - - [05/Dec/2025 22:54:08] "OPTIONS /predict HTTP/1.1" 200 -
+2025-12-05 22:54:08,468 - INFO - Received data: {'Packet_Length': '350', 'Duration': '1.2', 'Source_Port': '52345', 'Destination_Port': '443', 'Bytes_Sent': '1500', 'Bytes_Received': '4500', 'Flow_Packets': '12', 'Total_Fwd_Packets': '8', 'Total_Bwd_Packets': '4', 'Sub_Flow_Fwd_Bytes': '900', 'Sub_Flow_Bwd_Bytes': '3600', 'Attack_Type': 'Brute Force'}
+2025-12-05 22:54:08,568 - INFO - Raw model output: [[0.2892311215400696]]
+2025-12-05 22:54:08,569 - INFO - Prediction: Attack, probability=0.2892311215400696
+2025-12-05 22:54:08,569 - INFO - 127.0.0.1 - - [05/Dec/2025 22:54:08] "POST /predict HTTP/1.1" 200 -
