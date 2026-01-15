@@ -17,12 +17,19 @@ Sistem ini mengintegrasikan **Deep Feedforward Neural Network (DNN / MLP)** seba
 
 ## 🧠 Arsitektur Sistem
 User (Browser)
+
 ↓
+
 React Frontend (Vite + Tailwind)
+
 ↓
+
 Flask REST API
+
 ↓
+
 DNN / MLP Model (TensorFlow / Keras)
+
 
 ---
 
